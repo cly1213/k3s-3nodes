@@ -6,7 +6,10 @@ m1, n1, n2
 
 ### Enter to Master Node
 ```sh
-vagrant ssh master
+vagrant ssh m1
+```
+```sh
+ kubectl get nodes -o wide
 ```
 
 
