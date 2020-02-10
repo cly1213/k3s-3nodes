@@ -5,6 +5,7 @@ m1, n1, n2
 <br />
 
 ### Enter to Master Node
+## Verification
 ```sh
 vagrant ssh m1
 ```
