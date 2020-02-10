@@ -8,6 +8,7 @@ m1, n1, n2
 ```sh
 vagrant ssh m1
 ```
+On master node
 ```sh
  kubectl get nodes -o wide
 ```
