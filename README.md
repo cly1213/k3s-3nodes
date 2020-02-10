@@ -4,8 +4,8 @@ Reference: http://devnetstack.com/kubernetes-the-easy-way-with-k3s/
 m1, n1, n2
 <br />
 
-### Enter to Master Node
-## Verification
+## Enter to Master Node
+### Verification
 ```sh
 vagrant ssh m1
 ```
@@ -13,5 +13,7 @@ On master node
 ```sh
  kubectl get nodes -o wide
 ```
-
+```sh
+ kubectl get componentstatus
+```
 
